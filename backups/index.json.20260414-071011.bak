@@ -1,0 +1,326 @@
+{
+  "sections": {
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "",
+        "products_to_show": 25,
+        "show_view_all": false,
+        "grid_type": "justified",
+        "mobile_columns": "2",
+        "desktop_columns": 5,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": false,
+        "labels_display": "text_overlay_on_hover",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "quick_view": "disabled",
+        "color_scheme": "",
+        "space_above": 0.5,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    },
+    "feature-text": {
+      "type": "feature-text",
+      "settings": {
+        "richtext": "<p>Welcome to our art shop, located in the vibrant city of Zurich, where creativity meets inspiration. As an established hub for art lovers and collectors, we pride ourselves on curating a diverse collection of artworks from both renowned and emerging artists.<\/p>",
+        "cta_label": "Shop collection",
+        "font": "font-heading",
+        "desktop_text_scale": 5,
+        "mobile_text_scale": 2,
+        "text_alignment": "text-left",
+        "content_width_on_desktop": "12",
+        "content_position_on_desktop": "left",
+        "show_top_border": false,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "text-columns": {
+      "type": "text-columns",
+      "blocks": {
+        "text-columns-0": {
+          "type": "column",
+          "settings": {
+            "icon": "globe",
+            "title": "International Exhibitions",
+            "text": "<p>We collaborate with renowned galleries and artists from around the world to bring you extraordinary collections.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "text-columns-1": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "title": "Seamless Art Acquisition",
+            "text": "<p>We handle the logistics to ensure your artwork arrives safely and securely, ready to adorn your living space with beauty and inspiration.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "text-columns-2": {
+          "type": "column",
+          "settings": {
+            "icon": "star",
+            "title": "Emerging Talents",
+            "text": "<p>Discover the works of talented emerging artists who are pushing boundaries and making their mark in the art world. <\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        },
+        "text-columns-3": {
+          "type": "column",
+          "settings": {
+            "icon": "heart",
+            "title": "Curated Collections",
+            "text": "<p>Our expert curators meticulously select artworks that harmonize in theme, style, and historical significance.<\/p>",
+            "cta_link": "",
+            "cta_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text-columns-0",
+        "text-columns-1",
+        "text-columns-2",
+        "text-columns-3"
+      ],
+      "settings": {
+        "desktop_columns": 4,
+        "text_alignment": "text-center",
+        "max_width_of_icons": 80,
+        "show_top_border": true,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Shop by style",
+        "grid_type": "justified",
+        "mobile_columns": "1",
+        "desktop_columns": 3,
+        "standard_layout_align_items": "items-baseline",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1.1,
+        "irregular_layout_variation": 3,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "1.333",
+        "media_fill_space": true,
+        "labels_show_titles_and_captions": true,
+        "labels_display": "below_media",
+        "labels_always_show_on_mobile": true,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    },
+    "collection-carousel": {
+      "type": "collection-carousel",
+      "settings": {
+        "title": "Latest in Abstract",
+        "collection": "all",
+        "products_to_show": 8,
+        "show_view_all": true,
+        "item_width_mobile": 80,
+        "item_width_desktop": 40,
+        "snap_alignment": "snap-start",
+        "align_items": "items-start",
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": false,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": true,
+        "quick_view": "disabled",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "settings": {
+        "text": "Art en masse",
+        "repeat_text": true,
+        "link": "",
+        "desktop_text_scale": 6,
+        "mobile_text_scale": 2,
+        "font": "font-heading",
+        "speed": 20,
+        "direction": "",
+        "color_scheme": "",
+        "space_above": 0,
+        "space_below": 0
+      }
+    },
+    "media-with-text-overlay": {
+      "type": "media-with-text-overlay",
+      "blocks": {
+        "media-with-text-overlay-0": {
+          "type": "image",
+          "settings": {}
+        },
+        "media-with-text-overlay-1": {
+          "type": "color_overlay",
+          "settings": {
+            "color_scheme": "scheme_1",
+            "overlay_color": "bg-scheme-text",
+            "enable_custom_color": false,
+            "custom_overlay_color": "#ffffff",
+            "opacity": 67,
+            "blend_mode": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "media-with-text-overlay-0",
+        "media-with-text-overlay-1"
+      ],
+      "settings": {
+        "enable_full_bleed": true,
+        "aspect_ratio_mobile": "1",
+        "aspect_ratio_desktop": "2.35",
+        "content_position": "justify-start items-end",
+        "text_align": "text-left",
+        "content_width_on_desktop": "4",
+        "title": "The Landscape Collection",
+        "heading_size": "text-heading-feature",
+        "richtext": "",
+        "cta_label": "Shop now",
+        "button_style": "btn--solid",
+        "color_scheme": "scheme_2"
+      }
+    },
+    "collection-carousel-2": {
+      "type": "collection-carousel",
+      "settings": {
+        "title": "Latest in Landscape",
+        "collection": "all",
+        "products_to_show": 6,
+        "show_view_all": true,
+        "item_width_mobile": 80,
+        "item_width_desktop": 40,
+        "snap_alignment": "snap-start",
+        "align_items": "items-start",
+        "labels_show_titles_and_captions": true,
+        "labels_show_product_prices": false,
+        "labels_display": "below_media",
+        "labels_show_product_vendor": false,
+        "labels_always_show_on_mobile": false,
+        "show_index_and_total_slides": true,
+        "quick_view": "disabled",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "blog-posts-gallery": {
+      "type": "blog-posts-gallery",
+      "settings": {
+        "title": "Publications",
+        "articles_to_show": 6,
+        "show_view_all": false,
+        "grid_type": "modular",
+        "mobile_columns": "2",
+        "desktop_columns": 3,
+        "standard_layout_align_items": "items-start",
+        "modular_layout_variation": 1,
+        "modular_grid_item_aspect_ratio": 1,
+        "irregular_layout_variation": 1,
+        "irregular_alignment_of_items": "items-center justify-center",
+        "media_aspect_ratio": "natural",
+        "media_fill_space": false,
+        "show_title": true,
+        "show_author": false,
+        "show_date": false,
+        "show_excerpt": false,
+        "title_font": "font-heading text-heading-secondary",
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1,
+        "disable_left_and_right_margins": false,
+        "remove_grid_gaps": false
+      }
+    },
+    "logo-list": {
+      "type": "logo-list",
+      "blocks": {
+        "logo-list-0": {
+          "type": "logo",
+          "settings": {}
+        },
+        "logo-list-1": {
+          "type": "logo",
+          "settings": {}
+        },
+        "logo-list-2": {
+          "type": "logo",
+          "settings": {}
+        },
+        "logo-list-3": {
+          "type": "logo",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "logo-list-0",
+        "logo-list-1",
+        "logo-list-2",
+        "logo-list-3"
+      ],
+      "settings": {
+        "title": "As seen in",
+        "max_width": 90,
+        "grayscale": false,
+        "luminosity": false,
+        "invert": false,
+        "show_top_border": true,
+        "color_scheme": "",
+        "space_above": 1,
+        "space_below": 1
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Sign up to our newsletter",
+        "richtext": "<p>Receive special offers and first look at new products.<\/p>",
+        "show_top_border": false,
+        "color_scheme": "scheme_1",
+        "space_above": 1,
+        "space_below": 1
+      }
+    }
+  },
+  "order": [
+    "featured-collection",
+    "feature-text",
+    "text-columns",
+    "collection-list",
+    "collection-carousel",
+    "scrolling-text",
+    "media-with-text-overlay",
+    "collection-carousel-2",
+    "blog-posts-gallery",
+    "logo-list",
+    "newsletter"
+  ]
+}
+
