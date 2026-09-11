@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "name": "gauntlet-shopify-seed",
+  "title": "Shopify Content Automation",
+  "category": "Content operations",
+  "summary": "Store setup and editorial expansion repeat page, collection, and publishing operations.",
+  "status": "Source available; runtime not revalidated in this documentation review",
+  "visibility": "public",
+  "reviewed_on": "2026-09-11",
+  "reviewed_commit": "ce2cbddaedce9c1349fcbea46db8016090343011",
+  "architecture": "Structured content \u2192 seeding or batch publisher \u2192 Shopify Admin API \u2192 resulting page handles and indexing submissions.",
+  "evidence": [
+    {
+      "path": "seed.js",
+      "role": "Implementation component supporting the data flow described above."
+    },
+    {
+      "path": "create_comparison_geo_posts.js",
+      "role": "Implementation component supporting the data flow described above."
+    }
+  ],
+  "validation": "Repository tree and referenced source reviewed. Existing application tests, hosted deployments, paid providers, and external mutations were not re-run in this documentation review.",
+  "limitations": "A reusable seed operation reduces manual work; each specialized publisher still needs its own duplicate and rollback behavior checked.",
+  "next_improvement": "Document the larger local GEO84 workstream, and verify dry-run and rerun behavior before syncing additional publishers.",
+  "related_repositories": [
+    "ai-radar-backend",
+    "ai-radar-demo",
+    "ai-radar-mobile",
+    "art-catalog-automation",
+    "gauntlet-blog-engine"
+  ]
+}

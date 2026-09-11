@@ -1,5 +1,10 @@
 # Gauntlet Shopify Seed
 
+<!-- portfolio-navigation:start -->
+[Project brief](docs/PROJECT_BRIEF.md) · [Structured project record](project.json) · [Portfolio](https://github.com/jjshay)
+
+<!-- portfolio-navigation:end -->
+
 > Shopify store seeding and content automation for Gauntlet Gallery — idempotent Admin API scripts that build pages, collections, and a 300+ article SEO/GEO blog library.
 
 ## Overview
